@@ -14,11 +14,6 @@ if (!defined('ABSPATH')) {
     die('Direct file access is not allowed.');
 }
 
-//Autoload
-if (file_exists(__DIR__ . '/vendor/autoload.php')) {
-    require __DIR__ . '/vendor/autoload.php';
-}
-
 use RamseySolutions\RamseyBatch\Views\BatchView;
 use RamseySolutions\RamseyBatch\Controllers\BatchController;
 
