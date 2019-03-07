@@ -1,7 +1,7 @@
 {
 	"name": "RamseyInHouse/wp-ramsey-batch",
 	"description": "Perform batch jobs inside of WordPress.",
-	"type": "wordpress-plugin",
+	"type": "library",
 	"license": "GPL v3",
 	"version": "1.2.0",
 	"authors": [
