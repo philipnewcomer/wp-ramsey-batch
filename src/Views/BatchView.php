@@ -1,9 +1,11 @@
 <?php
 namespace RamseySolutions\RamseyBatch\Views;
 
+use RamseySolutions\RamseyBatch\Controllers\BatchController;
+
 class BatchView extends AdminPage
 {
-    public function __construct(object $controller, string $slug, string $title)
+    public function __construct(BatchController $controller, string $slug, string $title)
     {
         parent::__construct($controller, $slug, $title);
 

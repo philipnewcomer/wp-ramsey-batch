@@ -1,6 +1,8 @@
 <?php
 namespace RamseySolutions\RamseyBatch\Views;
 
+use RamseySolutions\RamseyBatch\Controllers\BatchController;
+
 abstract class AdminPage
 {
     protected $controller;
@@ -9,7 +11,7 @@ abstract class AdminPage
 
     abstract public function display();
 
-    public function __construct(object $controller, string $slug, string $title)
+    public function __construct(BatchController $controller, string $slug, string $title)
     {
         $this->controller = $controller;
         $this->slug = $slug;
